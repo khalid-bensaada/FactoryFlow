@@ -1,5 +1,5 @@
 // create a class and extend from error
-Class AppError extends Error {
+class AppError extends Error {
     // class attributs from class Error
     constructor(message, statusCode){
         // storage errors in message
